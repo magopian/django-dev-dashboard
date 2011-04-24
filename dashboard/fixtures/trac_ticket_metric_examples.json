@@ -70,5 +70,14 @@
       "name": "Doc. patches needing review", 
       "slug": "doc-patches"
     }
-  }
+  },
+  {
+    "pk": 9, 
+    "model": "dashboard.tracticketmetric", 
+    "fields": {
+      "query": "status=!closed&easy=1&stage=Accepted&order=priority", 
+      "name": "Easy pickings", 
+      "slug": "easy-pickings"
+    }
+  } 
 ]
